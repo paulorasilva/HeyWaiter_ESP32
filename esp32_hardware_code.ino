@@ -12,7 +12,7 @@ https://github.com/PRASILVA5
 const char* ssid = "YourWifiID";
 const char* password = "YourWifiPass";
 
-//You can use Ngrok to 
+//Tip: You can use Ngrok
 const char* serverName = "YourServer/HeyWaiter/post_esp32.php";
 
 //You can change de key, but remamber to change the php file to the same value
