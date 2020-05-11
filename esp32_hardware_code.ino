@@ -49,8 +49,8 @@ void loop() {
     // Specify content-type header
     http.addHeader("Content-Type", "application/x-www-form-urlencoded");
     
-    String httpRequestData = "api_key=Hzn97bK&table=table 2&request=Waiter";
-    String httpRequestData2 = "api_key=Hzn97bK&table=table 2&request=Payment";
+    String httpRequestData = "api_key=Hzn97bK&tableNumber=table 2&request=Waiter";
+    String httpRequestData2 = "api_key=Hzn97bK&tableNumber=table 2&request=Payment";
     
     
     boolean btn = digitalRead(button);
